@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PanicBotanic</string>
+    <string name="PROFILE">profile</string>
+    <string name="SETTINGS">settings</string>
+    <string name="error">Error</string>
+    <string name="msg2">Guardado Correctamente</string>
+    <string name="msg7">Enviar alerta </string>
+    <string name="msg8">Envía una alerta al teléfono </string>
+    <string name="msg10">Debe ingresar todos los campos.</string>
+    <string name="msg13">Debe ingresar todos los campos.</string>
+    <string name="msg15">Usted no aceptado terminos y condiciones.</string>
+    <string name="ok">OK</string>
+    <string name="acepto">Acepto</string>
+    <string name="correcto">Correcto</string>
+    <string name="terminos">Privacidad y términos</string>
+    <string name="numero_cuenta">**** ***** **** 0000</string>
+    <string name="nocontactos">No hay contactos</string>
+    <string name="nofavoritos">No hay favoritos</string>
+    <string name="noresultados">No hay resultados</string>
+    <string name="nonotificaciones">No hay notificaciones</string>
+    <string name="acceso">Acceso a contactos</string>
+    <string name="descacceso">Acceda a los contactos de su dispositivo</string>
+    <string name="permubicacion">Permitir ubicación</string>
+    <string name="descubicacion">Permitir la ubicación de este dispositivo</string>
+    <string name="title_activity_politic">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+</resources>

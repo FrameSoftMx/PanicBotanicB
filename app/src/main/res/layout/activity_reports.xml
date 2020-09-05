@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".Reports">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/para"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:text="To:"
+        android:gravity="center_vertical" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/email_salida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/para"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="chesgar_01@hotmail.com"
+        android:gravity="center_vertical" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/email_salida"
+        android:textSize="20dp"
+        android:text="Subject:"
+        android:gravity="center_vertical" />
+    <EditText
+        android:id="@+id/email_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:layout_below="@id/subject"
+        android:background="@drawable/inp_rou"
+        android:padding="8dp"
+        android:textColorHint="#626262"
+        android:inputType="textEmailAddress"/>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/email_subject"
+        android:textSize="20dp"
+        android:text="Message:"
+        android:gravity="center_vertical" />
+
+    <EditText
+        android:id="@+id/etmensaje"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:layout_below="@id/mensaje"
+        android:background="@drawable/inp_rou"
+        android:padding="8dp"
+        android:textColorHint="#626262"
+        android:inputType="textImeMultiLine"/>
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/etmensaje"
+        android:layout_centerHorizontal="true"
+        android:hint="Send"
+        android:textSize="22dp"
+        android:textColorHint="#fff"
+        android:background="@drawable/go_btn"
+        android:layout_marginTop="30dp"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1075482602618",
+    "firebase_url": "https://panic-botanic-8b66b.firebaseio.com",
+    "project_id": "panic-botanic-8b66b",
+    "storage_bucket": "panic-botanic-8b66b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075482602618:android:f21e45e1f0672822799fc3",
+        "android_client_info": {
+          "package_name": "com.framesoft.panicbotanic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075482602618-cdlluoit77m7g3agq3o08s4sn09s5u4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.framesoft.panicbotanic",
+            "certificate_hash": "63aaa67487ee06aa78f9972f09f495efca9deb96"
+          }
+        },
+        {
+          "client_id": "1075482602618-q3jlrv9b9hdhdqvfgo1gq20e76cnjpvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFDIGqmTA5q2BZCHALYi7LuWZ6jdjDaqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075482602618-q3jlrv9b9hdhdqvfgo1gq20e76cnjpvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

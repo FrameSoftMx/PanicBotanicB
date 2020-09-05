@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".Profile">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/formato" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/direccion"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="Imagen.jpeg" />
+    <Button
+        android:background="@drawable/redondo_blanco"
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/captura_imagen"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="VERIFY IDENTITY"
+        android:layout_below="@id/direccion"
+        android:drawableStart="@drawable/camara"
+        />
+    <Button
+    android:background="@drawable/redondo_blanco"
+    android:textColor="@android:color/holo_blue_dark"
+    android:id="@+id/captura_telefono"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:paddingLeft="20dp"
+    android:text="VERIFY PHONE NUMBRE"
+    android:layout_below="@id/captura_imagen"
+    android:drawableStart="@drawable/telefono"
+        android:layout_centerHorizontal="true"
+    />
+    <Button
+    android:background="@drawable/redondo_blanco"
+    android:textColor="@android:color/holo_blue_dark"
+    android:id="@+id/captura_email"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:paddingLeft="20dp"
+    android:text="VERIFY EMAIL"
+    android:layout_below="@id/captura_telefono"
+    android:drawableStart="@drawable/correo"
+        android:layout_centerHorizontal="true"
+    />
+    <Button
+        android:background="@drawable/redondo_blanco"
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/forma_pago"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:text="ADD PAYMENT METHOD"
+        android:layout_below="@id/captura_email"
+        android:drawableStart="@drawable/billetera"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:background="@drawable/redondo_blanco"
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/contactos"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:text="MY FRIENDS"
+        android:layout_below="@id/forma_pago"
+        android:drawableStart="@drawable/contacto"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:background="@drawable/redondo_blanco"
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/premios"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:text="MY REWARDS"
+        android:layout_below="@id/contactos"
+        android:drawableStart="@drawable/premio"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

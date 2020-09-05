@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".Taskbar">
+
+         <include android:id="@+id/toolbar"
+                  layout="@layout/toolbar"/>
+
+
+        <ImageButton
+            android:id="@+id/checkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/go_btn"
+            android:src="@drawable/checkout" />
+
+        <ImageButton
+            android:id="@+id/reservation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/go_btn"
+            android:src="@drawable/reservation" />
+
+    <Button
+        android:background="@drawable/redondo_blanco"
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:text="UPCOMING EVENTS"
+        android:layout_below="@id/reservation"
+        />
+    <Button
+        android:background="@drawable/redondo_blanco"
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="CURRENT DEALS"
+        android:layout_below="@id/button3"
+        />
+    <Button
+        android:background="@drawable/redondo_blanco"
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/button5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="FRIENDS WITH RESERVATION"
+        android:layout_below="@id/button4"
+        />
+
+
+
+</RelativeLayout>

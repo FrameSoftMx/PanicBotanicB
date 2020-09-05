@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5sp"
+    android:paddingBottom="5sp"
+    tools:context=".Contacs">
+
+    <ImageView
+        android:id="@+id/iperfil"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="3dp"
+        android:layout_marginStart="2.5dp"
+        android:layout_marginLeft="2.5dp"
+        android:layout_marginTop="2.5dp"
+        android:layout_marginEnd="2.5dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="2.5dp"
+        android:src="@drawable/amigo" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iperfil"
+        android:text="TextView"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iperfil"
+        android:layout_below="@id/nombre"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/aceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/favoritos"
+        android:layout_marginTop="10dp"
+        />
+    <!--<CheckBox
+        android:id="@+id/seleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"/>-->
+
+
+</RelativeLayout>

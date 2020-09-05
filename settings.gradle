@@ -1,0 +1,2 @@
+rootProject.name='PanicBotanic'
+include ':app'
